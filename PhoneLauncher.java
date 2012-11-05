@@ -5,7 +5,8 @@ public class PhoneLauncher {
 	}
 	
 	public void launch() {
-	SmartPhone myMobile = new SmartPhone();
+	SmartPhone myMobile = new SmartPhone("nokia");
+	System.out.println(myMobile.getBrand());
 	myMobile.call("01");
 	myMobile.call("02");
 	myMobile.call("03");
